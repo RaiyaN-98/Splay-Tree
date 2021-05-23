@@ -224,13 +224,13 @@ class SplayTree{
     }
 
 public:
-    void Add(ll x)
+    void Insert(ll x)
     {
         SplayInsert(x);
         return;
     }
 
-    void Erase(ll x)
+    void Delete(ll x)
     {
         SplayDelete(x);
         return;
